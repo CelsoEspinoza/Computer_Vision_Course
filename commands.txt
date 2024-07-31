@@ -1,0 +1,13 @@
+- Creación del environment
+>> conda env create -f <path/to/yourfile.yml>
+>> conda env create -f cvcourse_macos.yml
+
+- Actualizar env
+>> conda env update -f <path/to/yourfile.yml> --prune
+>> conda env update -f cvcourse_macos.yml --prune
+
+- Activar environment
+>> conda activate <env-name>
+>> conda activate python-cvcourse
+
+ 
