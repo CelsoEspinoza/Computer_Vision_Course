@@ -6,8 +6,13 @@
 >> conda env update -f <path/to/yourfile.yml> --prune
 >> conda env update -f cvcourse_macos.yml --prune
 
+- Remove environment
+>> conda env remove -n <path/to/yourfile.yml>
+>> conda env remove -n python-cvcourse
+
 - Activar environment
 >> conda activate <env-name>
 >> conda activate python-cvcourse
 
- 
+- Open Jupyter Lab
+>> jupyter-lab
